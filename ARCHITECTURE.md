@@ -10,14 +10,14 @@ Cada decisão relevante é registrada como um ADR (*Architecture Decision Record
 
 ```
 ┌─────────────────────┐        HTTPS/REST/JSON        ┌──────────────────────┐
-│   Frontend (PWA)     │ ─────────────────────────────▶│   Backend (Spring)    │
-│   Vue 3 + Vite        │◀───────────────────────────── │   API REST            │
-└─────────────────────┘                                └──────────┬───────────┘
-                                                                    │
-                                                                    ▼
-                                                          ┌──────────────────┐
-                                                          │   PostgreSQL       │
-                                                          └──────────────────┘
+│   Frontend (PWA)    │ ─────────────────────────────▶│   Backend (Spring)   │
+│   Vue 3 + Vite      │◀───────────────────────────── │   API REST           │
+└─────────────────────┘                               └──────────┬───────────┘
+                                                                 │
+                                                                 ▼
+                                                        ┌──────────────────┐
+                                                        │   PostgreSQL     │
+                                                        └──────────────────┘
 ```
 
 - Aplicação web servida como PWA (instalável, funciona offline em partes críticas quando possível).
