@@ -3,10 +3,10 @@
 Obrigado por considerar contribuir com o BEC! Este documento é o guia passo a passo para configurar o ambiente, escolher uma tarefa e enviar sua contribuição.
 
 Antes de começar, dê uma olhada em:
-- [VISION.md](./VISION.md) — para entender o que o projeto é e não é.
-- [ARCHITECTURE.md](ARCHITECTURE.md) — para entender as decisões técnicas.
-- [AGILE_WORKFLOW.md](AGILE_WORKFLOW.md) — para entender como o trabalho flui.
-- [AI_GUIDELINES.md](AI_GUIDELINES.md) — se for usar IA para ajudar na contribuição (comum e bem-vindo por aqui).
+- [VISION.md](docs/VISION.md) — para entender o que o projeto é e não é.
+- [ARCHITECTURE.md](docs/ARCHITECTURE.md) — para entender as decisões técnicas.
+- [AGILE_WORKFLOW.md](docs/AGILE_WORKFLOW.md) — para entender como o trabalho flui.
+- [AI_GUIDELINES.md](docs/AI_GUIDELINES.md) — se for usar IA para ajudar na contribuição (comum e bem-vindo por aqui).
 
 ## Configurando o ambiente
 
@@ -75,8 +75,8 @@ Se algum passo estiver desatualizado ou incompleto, sinta-se à vontade para abr
 1. Certifique-se de que sua branch está atualizada com a `main`.
 2. Abra o PR usando o [template padrão](./.github/PULL_REQUEST_TEMPLATE.md) — ele será preenchido automaticamente.
 3. Vincule o PR à issue correspondente (ex: `Closes #12`).
-4. Se usou IA de forma significativa na implementação, aplique a label `ai-assisted` e siga as orientações de transparência do [AI_GUIDELINES.md](AI_GUIDELINES.md).
-5. Garanta que o PR atende à [Definition of Done](AGILE_WORKFLOW.md#definition-of-done-dod) antes de marcar como pronto para revisão.
+4. Se usou IA de forma significativa na implementação, aplique a label `ai-assisted` e siga as orientações de transparência do [AI_GUIDELINES.md](docs/AI_GUIDELINES.md).
+5. Garanta que o PR atende à [Definition of Done](docs/AGILE_WORKFLOW.md#definition-of-done-dod) antes de marcar como pronto para revisão.
 
 ## Como funciona a revisão
 
