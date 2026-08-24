@@ -13,3 +13,7 @@
 **Consequências:** custo de infraestrutura zero enquanto o free tier da Oracle for suficiente; mesmo Docker Compose funciona local e em produção, simplificando a documentação de setup; deploy manual exige rodar o comando de atualização a cada release (aceitável na escala atual).
 
 **Status:** decidido — sujeito a revisão se os limites do free tier forem atingidos ou a equipe crescer.
+
+## Estado de execução
+
+Esta é uma decisão de arquitetura, não uma entrega já disponível: ainda não existem Dockerfiles, `compose.yaml`, workflows de CI ou publicação no GHCR neste repositório. Antes do primeiro deploy, a fundação técnica deve entregar: imagens reprodutíveis, configuração por variáveis de ambiente sem segredos versionados, migrações versionadas, build e testes automatizados no CI, backup/restauração testados e um runbook de atualização e rollback.
