@@ -13,7 +13,7 @@ O **BEC** é um software livre voltado a apoiar centros e instituições espíri
 
 ## Por que existe
 
-Bibliotecas espíritas costumam operar com controles manuais (cadernos, planilhas soltas) ou softwares genéricos que não refletem a realidade de operação de um centro espírita (voluntariado, baixo orçamento, hardware modesto) ou das obras e literatura espirita que custa conter peculiaridades. O BEC busca ser uma ferramenta simples, leve e gratuita, pensada para essa realidade.
+Bibliotecas espíritas costumam operar com controles manuais (cadernos e planilhas soltas) ou softwares genéricos que não refletem a realidade de um centro espírita: voluntariado, baixo orçamento, hardware modesto e particularidades da literatura espírita. O BEC busca ser uma ferramenta simples, leve e gratuita, pensada para essa realidade.
 
 Veja o [VISION.md](docs/VISION.md) para entender o escopo completo do que o projeto é e não é.
 
@@ -53,6 +53,9 @@ cd BEC
 | [ARCHITECTURE.md](docs/ARCHITECTURE.md) | Decisões técnicas e seus porquês (ADRs) |
 | [AGILE_WORKFLOW.md](docs/AGILE_WORKFLOW.md) | Como o trabalho flui, board, definition of done |
 | [AI_GUIDELINES.md](docs/AI_GUIDELINES.md) | Regras de uso de IA no desenvolvimento |
+| [DATA_MODEL.md](docs/DATA_MODEL.md) | Entidades, relações e regras do domínio |
+| [ROADMAP.md](docs/ROADMAP.md) | Modelo de marcos e critérios de saída |
+| [PRIVACIDADE_E_SEGURANCA.md](docs/PRIVACIDADE_E_SEGURANCA.md) | Requisitos para dados pessoais e operação segura |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Como contribuir, passo a passo |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Código de conduta da comunidade |
 | [CHANGELOG.md](CHANGELOG.md) | Histórico de versões |
@@ -63,5 +66,4 @@ Este projeto é distribuído sob a licença [MIT](LICENSE).
 
 ## Contato
 
-Mantenedor: Luiz Lourenço ([@LuizLourenco] (https://github.com/LuizLourenco)) ou e-mail: [lourenzzo.am@gmail.com](mailto:lourenzzo.am@gmail.com)
-
+Mantenedor: Luiz Lourenço ([@LuizLourenco](https://github.com/LuizLourenco)) ou e-mail: [lourenzzo.am@gmail.com](mailto:lourenzzo.am@gmail.com)

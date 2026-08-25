@@ -9,7 +9,7 @@ Muitas bibliotecas de instituições espíritas no Brasil são geridas de forma 
 - Barreira de entrada alta para voluntários sem formação técnica.
 - Custo de infraestrutura incompatível com o orçamento de um centro espírita (geralmente mantido por doações).
 
-O **BEC** existe para oferecer uma alternativa **leve, gratuita, simples de operar e simples de hospedar ou instalar em computadores geralmente oriundo de doações**, feita sob medida para essa realidade.
+O **BEC** existe para oferecer uma alternativa **leve, gratuita, simples de operar e simples de hospedar ou instalar em computadores geralmente oriundos de doações**, feita sob medida para essa realidade.
 
 ## Escopo
 

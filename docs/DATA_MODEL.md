@@ -4,7 +4,7 @@ Este documento descreve as entidades centrais do domínio (instituição, leitor
 
 Gatilho que motivou este documento: início da implementação do módulo de empréstimos (ver `docs/ARCHITECTURE.md`).
 
-## Premissas assumidas (revisão 3)
+## Premissas assumidas (revisão 4)
 
 Histórico: revisão 2 incorporou Autores, Editoras, Gêneros, Tradutores, Ilustrador, CDC, Reserva, Categorias de Usuário, Tipos de Item e Matriz de Empréstimo, e removeu o Calendário de Funcionamento. Esta revisão (4) separa regras de circulação de autorização, explicita as tabelas de junção bibliográficas, cria histórico de renovação e formaliza restrições de integridade. Decisões de modelagem seguem marcadas abaixo para revisão sua:
 

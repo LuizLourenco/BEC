@@ -46,4 +46,4 @@ Casos de comportamento abusivo, de assédio ou de outra forma inaceitável podem
 
 ## Atribuição
 
-Este Código de Conduta é adaptado do [Contributor Covenant](https://www.contributor-covenant.org), versão 2.1, disponível em https://www.contributor-covenant.org/pt-br/version/2/1/code_of_conduct.html.
+Este Código de Conduta é adaptado do [Contributor Covenant](https://www.contributor-covenant.org/pt-br/version/2/1/code_of_conduct.html), versão 2.1.

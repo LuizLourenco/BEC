@@ -8,10 +8,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 ## [Não lançado]
 
 ### Adicionado
-- Documentação inicial do projeto: README, VISION, ARCHITECTURE, AGILE_WORKFLOW, AI_GUIDELINES, CONTRIBUTING, CODE_OF_CONDUCT.
+- Documentação do projeto: README, visão, arquitetura, modelo de dados, roadmap, privacidade e segurança, fluxo de trabalho, diretrizes de IA, contribuição e código de conduta.
 - Templates de issue (bug report, feature request) e Pull Request.
 - Definição da licença do projeto (MIT).
-- Decisões de arquitetura registradas: aplicação web, backend Spring + PostgreSQL, frontend Vue 3 + Vite como PWA.
+- Decisões de arquitetura registradas: aplicação web, backend Spring + PostgreSQL, frontend Vue 3 + Vite como PWA, autenticação, deploy, suporte offline e autorização/auditoria.
 
 <!--
 Ao lançar uma versão, mova os itens de "Não lançado" para uma nova seção

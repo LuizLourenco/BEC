@@ -41,7 +41,7 @@ Se algum passo estiver desatualizado ou incompleto, sinta-se à vontade para abr
 
 ## Como escolher uma tarefa
 
-1. Acesse o [board do projeto](https://github.com/LuizLourenco/BEC) (GitHub Projects).
+1. Acesse a [aba Projects do repositório](https://github.com/LuizLourenco/BEC/projects).
 2. Procure issues na coluna **Ready**.
 3. Se é sua primeira contribuição, procure a label **`good first issue`**.
 4. Comente na issue dizendo que vai trabalhar nela, para evitar duplicidade de esforço.

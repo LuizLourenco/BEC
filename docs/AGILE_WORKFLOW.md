@@ -4,7 +4,7 @@ Este documento descreve como o trabalho é organizado no projeto: onde as tarefa
 
 ## Board
 
-Usamos **GitHub Projects** (view Kanban) vinculado ao repositório [`LuizLourenco/BEC`](https://github.com/LuizLourenco/BEC).
+Usamos **GitHub Projects**, em visão Kanban, vinculado ao repositório [`LuizLourenco/BEC`](https://github.com/LuizLourenco/BEC/projects).
 
 Colunas padrão:
 
