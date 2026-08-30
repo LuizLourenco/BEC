@@ -56,12 +56,12 @@ Este roadmap é um **modelo de planejamento**, não um cronograma nem uma promes
 
 **Objetivo:** controlar o ciclo de empréstimo sem perder histórico ou permitir estados inválidos.
 
-- Implementar categorias de leitor e regras de empréstimo por tipo de item.
+- Implementar regras de circulação por `TipoCirculacao` (`EMPRESTAVEL`, `CONSULTA_LOCAL`, `RESTRITO`), conforme `DATA_MODEL.md` — classificação de leitor para regras de empréstimo fica fora deste marco até existir uma entidade correspondente no modelo de dados e um ADR próprio.
 - Implementar empréstimo, devolução, renovação auditável e cálculo de prazo.
 - Implementar reservas FIFO, disponibilidade e expiração de retirada.
 - Exibir pendências e disponibilidade atual do exemplar/obra.
 
-**Critérios de saída:** o sistema bloqueia exemplar indisponível ou sem circulação; limites, prazos e renovações são aplicados; duas operações concorrentes não emprestam o mesmo exemplar; a fila de reserva segue a regra documentada.
+**Critérios de saída:** o sistema bloqueia exemplar indisponível ou sem circulação (`TipoCirculacao`); prazos e renovações são aplicados; duas operações concorrentes não emprestam o mesmo exemplar; a fila de reserva segue a regra documentada.
 
 ## M4 — Experiência PWA
 
