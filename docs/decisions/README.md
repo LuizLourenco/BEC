@@ -13,6 +13,7 @@ Cada decisão relevante é registrada como um ADR (*Architecture Decision Record
 | [0007](0007-deploy-docker-compose.md) | Estratégia de deploy — Docker Compose + Oracle Cloud | decidido |
 | [0008](0008-pwa-offline.md) | Suporte offline no PWA — leitura do acervo | decidido |
 | [0009](0009-autorizacao-e-auditoria.md) | Autorização e auditoria — papéis fixos e permissões explícitas | decidido |
+| [0010](0010-organizacao-modular-ddd-hexagonal.md) | Organização modular — DDD tático seletivo, Clean Architecture e Ports & Adapters | decidido |
 
 ## Como criar um novo ADR
 

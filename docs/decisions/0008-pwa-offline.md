@@ -18,3 +18,7 @@ Para garantir que a consulta funcione de forma consistente e segura, sem falsas 
 **Consequências:** cobre o caso de uso mais comum (consultar se um livro existe e onde fica) sem exigir lógica de conflito; a busca funciona perfeitamente mesmo sem internet para todo o catálogo; a disponibilidade do acervo pode estar ligeiramente desatualizada, mas o usuário final é devidamente alertado pelo indicador de sincronização da interface; empréstimo offline com sincronização fica como evolução futura caso haja real demanda e braço técnico para implementação segura.
 
 **Status:** decidido — sujeito a revisão se houver relatos frequentes de instituições sem conexão estável no momento do empréstimo.
+
+---
+
+**Nota de revisão (2026-08-23):** esta versão substitui a estratégia anterior baseada em cache de requisições HTTP via service worker (Workbox, stale-while-revalidate), que cobria apenas buscas já realizadas enquanto online. A nova estratégia de índice minimalista sincronizado resolve essa lacuna, permitindo busca offline em qualquer termo do catálogo. Compatível com as referências existentes em `ARCHITECTURE.md`/`ROADMAP.md` (M4 — "cache do catálogo conforme ADR-008"); nenhuma outra alteração de escopo foi necessária. Relevante caso a implementação de M4 já tenha começado com a estratégia antiga.
