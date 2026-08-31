@@ -1,59 +1,10 @@
 HELP.md
-
-### Java ###
-*.class
-
-# Package files
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# Virtual machine crash logs (https://bugs.openjdk.java.net/browse/JDK-8138673)
-hs_err_pid*
-replay_pid*
-
-### Maven ###
 target/
-!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
 
-### Spring Boot ###
-# Arquivos de configuração local que não devem ser versionados
-application-local.properties
-application-local.yml
-application-local.yaml
-.env
-
-### IntelliJ IDEA ###
-.idea/
-*.iws
-*.iml
-*.ipr
-out/
-
-# Se preferir versionar configurações de projeto compartilhadas com o time,
-# comente a linha ".idea/" acima e descomente as linhas abaixo:
-# .idea/*
-# !.idea/codeStyles/
-# !.idea/runConfigurations/
-
-### VS Code ###
-.vscode/
-
-### Eclipse / STS ###
+### STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -62,16 +13,21 @@ out/
 .springBeans
 .sts4-cache
 
-### Logs ###
-*.log
-logs/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-### macOS ###
-.DS_Store
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### Windows ###
-Thumbs.db
-Desktop.ini
-
-### Linux ###
-*~
+### VS Code ###
+.vscode/
